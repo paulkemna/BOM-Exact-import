@@ -1,0 +1,20 @@
+Stap voor stap uitleg over het veranderen van de database model.
+
+Stap1) Het .sln bestand in visual studio. 
+
+Stap2) (Sla deze stap over indien de solution explorer al aan staat) Links boven in zie je een aantal tabs staan, klik op de tabl view en selecter de solution explorer optie of druk op de toetsen combinatie Ctrl+Alt+L.
+
+Stap3) Binnen in de solution explorer die je recht in de hoek nu kan zien zie je ook de Model1.edmx staand. Selecteer die en verwijder die. 
+
+Stap4) klik dan met rechter-muis knop op de app of de solution (Een van de bovenste 2 files) en selecteert de optie add. Er klapt een menu open in dat menu kies voor New Item... 
+
+Stap5) Er wordt een file-type selector geopend. Links binnen in die selector zie je een aantal opties staan, selecteer de optie data. Dan verandert het middenstuk. In het midden stuk selecteer de ADO.NET Entity Data Model file-type. Het maakt niet uit hoe je deze model noemt. 
+
+Stap6)Er wordt een Entity Data Model Wizard geopend. Je ziet 4 opties staan kies de optie EF Desinger from database en druk op next. 
+
+Stap7)Kies nu de database server waar je de model van wilt maken [LET OP!!!] zorg er voor dat de optie save connection settings in app.config aan is gevinked (daar doen we dit voor).  
+[LET OP!!!] De naam van deze Entity model is wel belangrijk. Zorg ervoor dat deze InduEntities heet. 
+
+Stap7) Je komt nu in het laatste scherm zorg er voor dat de optie tables is aangevinked en maak de optie open door op het pijltje links van de optie te kliken. Zorg er voor dat ALLE tables zijn aangevinked. Anders doet niets het meer. Klik nu op finish.
+
+Stap8) Iendien er een fout melding komt over een externe verrandering van de app.config file druk dan op no to all.
